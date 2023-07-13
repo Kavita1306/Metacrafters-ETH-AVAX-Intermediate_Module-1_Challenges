@@ -18,6 +18,7 @@ The ErrorHandling contract provides the following functions:
 • The third line of the function assigns the new value to the value variable.
 
 ** Here is a more detailed explanation of each point:
+
 • The require() statement is used to check a condition and throw an error if the condition is not met. The require() statement is often used to validate the input parameters of a function.
 
 • The assert() statement checks a condition and reverts the transaction if the condition is not met. The assert() statement is often used to enforce invariants of the contract.
@@ -41,6 +42,7 @@ The ErrorHandling contract provides the following functions:
 • The function simply reverts the transaction with the message "An error occurred".
 
 ** Here is a more detailed explanation of each point:
+
 • The revert() statement is used to revert the transaction. The revert() statement is often used to handle errors in a contract.
 
 • The pure modifier is used to indicate that the function does not modify any state variables in the contract. 
