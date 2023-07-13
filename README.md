@@ -7,7 +7,7 @@ Solidity ^0.8.0
 # Contract Details
 The ErrorHandling contract provides the following functions:
 #  function setValue(uint _value)
-• It is a public function, which means that it can be called from outside the contract.
+• It is a public function, which means that it can be called from outside the contract.\n
 • It takes one argument, which is the new value for the value variable.
 • The first line of the function uses the require() statement to check if the value is greater than 0. If the value is not greater than 0, the require() statement will throw an error.
 • The second line of the function uses the assert() statement to check if the new value is not the same as the old value. If the new value is the same as the old value, the assert() statement will revert the transaction.
